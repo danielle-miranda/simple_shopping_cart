@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/application.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Shopping Cart</h1>
+        </div>
+        <div clas="col-12">
+          <table class = "table table-responsive">
+            <thead>
+              <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Price (USD)</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Subtotal (USD)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="item">Sugar Cookie</td>
+                <td class="price">$2.75</td>
+                <td class="quantity">
+                  <label>QTY</label>
+                  <input type="number" min="0" value="4">
+                  <button class=" btn btn-light btn-small mb-1 remove">Remove</button>
+                </td>
+                <td class="subtotal">$11.00</td>
+              </tr>
+              <tr>
+                <td class="item">Chocolate Cupcake</td>
+                <td class="price">$5.00</td>
+                <td class="quantity">
+                  <label>QTY</label>
+                  <input type="number" min="0" value="1">
+                  <button class=" btn btn-light btn-small mb-1 remove">Remove</button>
+                </td>
+                <td class="subtotal">$5.00</td>
+              </tr>
+              <tr>
+                <td class="item">Vanilla Cupcake</td>
+                <td class="price">$5.00</td>
+                <td class="quantity">
+                  <label>QTY</label>
+                  <input type="number" min="0" value="2">
+                  <button class=" btn btn-light btn-small mb-1 remove">Remove</button>
+                </td>
+                <td class="subtotal">$10.00</td>
+              </tr>
+              <tr>
+                <td class="item">Apple Pie</td>
+                <td class="price">$35.00</td>
+                <td class="quantity">
+                  <label>QTY</label>
+                  <input type="number" min="0" value="1">
+                  <button class=" btn btn-light btn-small mb-1 remove">Remove</button>
+                </td>
+                <td class="subtotal">$35.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
