@@ -67,8 +67,9 @@ $(document).ready(function () {
   <td class="item">${item}</td>
   <td class="price">$${price}</td>
   <td class="quantity">
-    <label>QTY</label><input type="number" min="0" value="1"/>
-    <button class="btn btn-light btn-sm mb-1 remove">Remove</button>
+    <label>QTY</label>
+      <input type="number" min="0" value="1"/>
+      <button class="btn btn-light btn-small mb-1 remove">Remove</button>
   </td>
   <td class="subtotal"></td>
   </tr>

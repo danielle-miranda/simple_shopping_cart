@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  background-image: url("./images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.remove {
+  background-color: rgb(172, 109, 58);
+  font-size: 10px;
+  color: white
+}
+
+.remove:hover{
+  background-color: rgb(167, 2, 2);
+}
+
+#add{
+  background-color: rgb(8, 90, 45);
+}
+
+#add:hover{
+  background-color: green;
+}
+
+.table{
+  background-color: azure;
+}
+
+.total{
+color: rgb(216, 47, 47);
+}
+
+.cart{
+  color: bisque;
+  margin: 50px;
+  text-align: center;
+  background-color: rgb(172, 109, 58);
+  border-radius: 25px;
+}

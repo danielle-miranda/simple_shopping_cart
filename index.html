@@ -14,10 +14,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
   </head>
-  <body>
+  <body id="special">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 cart">
           <h1>Shopping Cart</h1>
         </div>
         <div clas="col-12">
@@ -78,11 +78,11 @@
           <form class="col" id="addItem">
             <input class="mx-1 item" type="text" placeholder="Item">
             <input class="mx-1 price" type="number" placeholder="USD" step=".01">
-            <button class="btn btn-success btn-sm mb-1 add">Add Item</button>
+            <button class="btn btn-success btn-sm mb-1 add " id="add">Add Item</button>
           </form>
         </div>
       </div>
-      <div class="row pt-2">
+      <div class="row pt-4 total">
         <div class="col-9">
           <h2>Total Price:</h2>
         </div>
